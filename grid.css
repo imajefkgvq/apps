@@ -1,0 +1,100 @@
+.container{
+  display: grid;
+  grid-template-columns: 100px 100px 100px ;
+  grid-template-rows:100px 100px 100px ;
+  gap: 2rem;
+  border: 1px dotted;
+  padding: 10px;
+  padding-bottom: 26px;
+  box-shadow: 1px 1px 22px 1px blue;
+  background-color: rgb(255, 255, 255);
+  
+  
+}
+.list-7{
+  grid-row: 1/2;
+  grid-column: 1/4;
+  
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: blueviolet;
+}
+img{
+  width: 100px;
+}
+.list-1{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  text-align: center;
+  background-color: rgb(32, 195, 195);
+}
+.list-1:hover{
+  transition: 1.2s;
+  transform:scale(1.2) ;
+}
+.list-2{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+
+
+}
+.list-3{
+  grid-column: 3/4;
+  grid-row: 2/3;
+  text-align: center;
+}
+.list-4{
+  grid-column:1/2 ;
+  grid-row: 3/4;
+  text-align: center;
+}
+.list-5{
+  grid-column: 3/4;
+  grid-row: 3/4;
+  text-align: center;
+
+  
+}
+.list-6{
+  text-align: center;
+
+  grid-row: 3/4;
+}
+button{
+  background-color: blue;
+  margin-left: 55px;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  color: aliceblue;
+  margin-top: 20px;
+  
+}
+.list-2:hover{
+  transition: 1.2s;
+  transform:scale(1.2) ;
+}
+.list-3:hover{
+  transition: 1.2s;
+  transform:scale(1.2) ;
+}
+.list-4:hover{
+  transition: 1.2s;
+  transform:scale(1.2) ;
+}
+.list-5:hover{
+  transition: 1.2s;
+  transform:scale(1.2) ;
+}
+.list-6:hover{
+  transition: 1.2s;
+  transform:scale(1.2) ;
+}
+
+
